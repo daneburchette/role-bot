@@ -255,7 +255,7 @@ func main() {
 		activeConfigPath = configPath()
 	}
 
-	initLogger(activeConfigPath)
+	// initLogger(activeConfigPath)
 
 	if *tokenFile != "" {
 		tokenBytes, err := os.ReadFile(*tokenFile)
